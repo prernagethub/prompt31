@@ -19,10 +19,12 @@ body {
 
 li {
   list-style: none;
+  
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .container {
@@ -30,15 +32,15 @@ a {
   margin: auto;
 }
 
-.head_container {
+/* .head_container {
   max-width: 90%;
   margin: auto;
-}
+} */
 
 /*--------------header--------*/
-header {
-  height: 8vh;
-}
+/* header { */
+/* height: 10vh; */
+/* } */
 
 .logo img {
   width: 120px;
@@ -51,18 +53,25 @@ header nav {
   padding-top: 20px;
 }
 
-.hambuger {
-  display: none;
+.box>h2 {
+  font-size: 3rem;
+  margin-top: 10%;
+  margin-left: 10%;
 }
 
-.bar {
+
+/* .hambuger {
+  display: none;
+} */
+
+/* .bar {
   display: block;
   width: 25px;
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
   background-color: #fff;
-}
+} */
 
 header ul {
   display: flex;
@@ -71,7 +80,7 @@ header ul {
 }
 
 header ul li {
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 header ul li a {
@@ -85,7 +94,26 @@ header ul li a:hover {
   color: #C1B086;
 }
 
-@media only screen and (max-width: 768px) {
+.text h1 {
+  border: 3px solid red;
+  margin-top: 25%;
+}
+
+
+.book {
+  margin-top: 10%;
+  /* border: 3px solid black; */
+  position: absolute;
+  top: 60%;
+  /* left: 2%; */
+}
+
+.container {
+  /* border: 2px solid red; */
+  margin-left: 8%;
+}
+
+/* @media only screen and (max-width: 768px) {
   header ul {
     display: block;
     position: fixed;
@@ -172,7 +200,7 @@ button {
   transition: 0.5s;
 }
 
-.text button:hover{
+.text button:hover {
   transform: scale(1.2);
 }
 
@@ -196,6 +224,7 @@ button {
   transition: 0.5s;
   box-shadow: 3px 3px 6px rgba(255, 255, 255, 0.804);
 }
+
 .home .image_item img:hover {
   transform: scale(1.2);
   box-shadow: 3px 3px 18px rgba(255, 255, 255, 0.804);
@@ -272,6 +301,6 @@ input {
   font-size: 20px;
   margin-top: 40px;
 }
-
+ /* */ */
 /*--------------book--------*/
 /*--------------about--------*/
